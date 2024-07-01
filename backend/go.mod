@@ -1,4 +1,4 @@
-module ChatApp
+module github.com/AKRVerz/GoChatApp
 
 go 1.22.4
 

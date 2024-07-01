@@ -1,9 +1,10 @@
 package main
 
 import (
-	"ChatApp/pkg/websocket"
 	"fmt"
 	"net/http"
+
+	"github.com/AKRVerz/GoChatApp/pkg/websocket"
 )
 
 func serveWS(pool *websocket.Pool, w http.ResponseWriter, r *http.Request){
